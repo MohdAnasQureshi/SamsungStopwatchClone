@@ -194,7 +194,7 @@ function lapFunc() {
 
   lapSec = 0;
   lapMilliSec = 0;
-  lapSec = 0;
+  lapMin = 0;
 
   tableData3.innerHTML = `${minCount < 10 ? "0" + minCount : minCount}:${
     secCount < 10 ? "0" + secCount : secCount
