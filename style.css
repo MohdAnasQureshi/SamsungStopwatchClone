@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.stopWatch {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.watchContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 0px;
+    height: 30vh;
+    width: 100vw;
+}
+
+.watch {
+    display: flex;
+    font-size: 3rem;
+    align-items: flex-end;
+}
+
+.lapTime {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    font-size: 1.5rem;
+    visibility: hidden;
+    color:rgb(162, 162, 162); 
+}
+
+.lapContainer {
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 55vh;
+    width: 100vw;
+    visibility: hidden;
+}
+
+table {
+   
+    border-collapse: separate;
+    text-align: center;
+    border-spacing: 0;
+}
+
+thead th {
+    color: rgb(162, 162, 162);
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    border-bottom: 1px solid rgb(205, 205, 205);
+    padding: 10px 15px;
+    
+}
+
+td:first-child, td:nth-child(2) {
+    color: rgb(149, 149, 149);
+}
+
+tr, td {
+    height: 2.5rem;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+}
+
+.btnContainer .start {
+    color: white;
+    font-weight: 550;
+    font-size: 1.25rem;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 50px ;
+    padding: 8px 25px;
+    
+}
+
+.btnContainer .resume {
+    display: none;
+    color: white;
+    font-weight: 550;
+    font-size: 1.25rem;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 50px ;
+    padding: 8px 25px;
+    margin-right: 3rem;
+
+}
+
+.btnContainer .stop {
+    display: none;
+    margin-right: 1.5rem;
+    color: white;
+    font-weight: 550;
+    font-size: 1.25rem;
+    background-color: rgb(255, 25, 113);
+    border: none;
+    border-radius: 50px ;
+    padding: 8px 25px;
+   
+}
+
+.btnContainer .lap {
+    display: none;
+    margin-left: 2rem;
+    color: white;
+    font-weight: 550;
+    font-size: 1.25rem;
+    background-color: rgb(71, 71, 71);
+    border: none;
+    border-radius: 50px ;
+    padding: 8px 25px;
+    
+}
+.btnContainer .reset {
+    display: none;
+    margin-left: 1rem;
+    color: white;
+    font-weight: 550;
+    font-size: 1.25rem;
+    background-color: rgb(71, 71, 71);
+    border: none;
+    border-radius: 50px ;
+    padding: 8px 25px;
+    width: 6.2em;
+}
+
+
+.blue {
+  color: blue;
+}
+
+
+
+.red {
+ color:red;
+}
+
+
