@@ -83,7 +83,7 @@ tr, td {
     color: white;
     font-weight: 550;
     font-size: 1.25rem;
-    background-color: blueviolet;
+    background-color: rgb(131, 79, 255);
     border: none;
     border-radius: 50px ;
     padding: 8px 25px;
@@ -95,7 +95,7 @@ tr, td {
     color: white;
     font-weight: 550;
     font-size: 1.25rem;
-    background-color: blueviolet;
+    background-color:  rgb(131, 79, 255);
     border: none;
     border-radius: 50px ;
     padding: 8px 25px;
@@ -143,13 +143,13 @@ tr, td {
 
 
 .blue {
-  color: blue;
+  color:  rgb(131, 79, 255);
 }
 
 
 
 .red {
- color:red;
+ color: rgb(255, 25, 113);
 }
 
 

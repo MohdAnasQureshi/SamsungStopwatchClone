@@ -138,8 +138,8 @@ function checkLap() {
         console.log(element);
         element.classList.add("blue");
        
-        element.children[0].style.color = "blue";
-        element.children[1].style.color = "blue";
+        element.children[0].style.color = "rgb(131, 79, 255)";
+        element.children[1].style.color = "rgb(131, 79, 255)";
       } else if (attributeValue !== minLap) {
         element.classList.remove("blue");
         element.children[0].style.color = "";
@@ -148,8 +148,8 @@ function checkLap() {
       if (attributeValue === maxLap) {
         element.classList.add("red");
 
-        element.children[0].style.color = "red";
-        element.children[1].style.color = "red";
+        element.children[0].style.color = " rgb(255, 25, 113)";
+        element.children[1].style.color = " rgb(255, 25, 113)";
       } else if (attributeValue !== maxLap) {
         element.classList.remove("red");
       }
